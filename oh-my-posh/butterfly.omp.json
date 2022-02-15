@@ -1,0 +1,81 @@
+{
+  "$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
+  "blocks": [{
+      "type": "prompt",
+      "alignment": "left",
+      "segments": [{
+          "type": "os",
+          "style": "diamond",
+          "leading_diamond": "\ue0c7\u2593",
+          "foreground": "#ffffff",
+          "background": "#3A86FF"
+        },
+        {
+          "type": "session",
+          "style": "powerline",
+          "powerline_symbol": "\uE0B0",
+          "foreground": "#ffffff",
+          "background": "#16C60C",
+          "properties": {
+            "prefix": " ",
+            "display_host": false,
+            "postfix": " "
+          }
+        },
+        {
+          "type": "path",
+          "style": "powerline",
+          "powerline_symbol": "\uE0B0",
+          "foreground": "#ffffff",
+          "background": "#ff479c",
+          "properties": {
+            "prefix": " \uE5FF ",
+            "style": "full",
+            "enable_hyperlink": true
+          }
+        },
+        {
+          "type": "git",
+          "style": "powerline",
+          "powerline_symbol": "\uE0B0",
+          "foreground": "#193549",
+          "background": "#fffb38",
+          "properties": {
+            "display_stash_count": true,
+            "display_upstream_icon": true
+          }
+        },
+        {
+          "type": "node",
+          "style": "powerline",
+          "powerline_symbol": "\uE0B0",
+          "foreground": "#ffffff",
+          "background": "#B4009E",
+          "properties": {
+            "prefix": " \uE718 "
+          }
+        },
+        {
+          "type": "root",
+          "style": "powerline",
+          "powerline_symbol": "\uE0B0",
+          "foreground": "#193549",
+          "background": "#ffff66"
+        }
+      ]
+    },
+    {
+      "type": "prompt",
+      "alignment": "left",
+      "newline": true,
+      "segments": [{
+        "type": "text",
+        "style": "plain",
+        "properties": {
+          "text": "🦋"
+        }
+      }]
+    }
+  ],
+  "final_space": true
+}
