@@ -88,7 +88,7 @@ Get-ChildItem -Path "~\AppData\Local\Programs\oh-my-posh\themes\*" -Include '*.o
 &nbsp;
 ****
 ## Oh-my-zsh (Windows Subsystem for Linux 2 / WSL2 / SSH - Debian9)
-![image]https://github.com/butterflydreams/Butterfly-OS_WindowsTools/blob/main/oh-my-posh/Oh-my-zsh.jpg)
+![image](https://github.com/butterflydreams/Butterfly-OS_WindowsTools/blob/main/oh-my-posh/Oh-my-zsh.jpg)
 > Installation: https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH#ubuntu-debian--derivatives-windows-10-wsl--native-linux-kernel-with-windows-10-build-1903
 
 > Themes: https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
